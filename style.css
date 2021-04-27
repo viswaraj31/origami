@@ -1,5 +1,29 @@
 .grid{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    background-color: greenyellow;
+    margin: 75px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkorange;
+}
+
+h2{
+    margin : 40px;
+}
+
+.panda{
+    margin: 50px;
+}
+
+.panda:hover{
+    transform: scale(1.3);
+}
+
+.header a{
+    margin-right: 20px;
 }
